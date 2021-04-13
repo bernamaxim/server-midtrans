@@ -11,3 +11,5 @@ $api_url = $is_production ?
 echo strpos($_SERVER["REQUEST_URI"], '/charge')
 
 echo $_SERVER["REQUEST_URI"]
+
+?>
