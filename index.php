@@ -8,7 +8,7 @@ $api_url = $is_production ?
   'https://app.midtrans.com/snap/v1/transactions' : 
   'https://app.sandbox.midtrans.com/snap/v1/transactions';
 
-$server_key = $is_production ? 'Mid-server-NyFtdTylHkn-6h3t8gn9QhHw' : 'SB-Mid-server-acFlMZ-5fEFsYMDsK840g8Ia'
+$server_key = $is_production ? 'Mid-server-NyFtdTylHkn-6h3t8gn9QhHw' : 'SB-Mid-server-acFlMZ-5fEFsYMDsK840g8Ia';
 
 
 // Check if request doesn't contains `/charge` in the url/path, display 404
