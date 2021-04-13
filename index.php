@@ -1,6 +1,6 @@
 <?php
 
-echo strpos($_SERVER["REQUEST_URI"];
+echo $_SERVER["REQUEST_URI"];
 
 $server_key = "SB-Mid-server-acFlMZ-5fEFsYMDsK840g8Ia";
 
