@@ -2,7 +2,7 @@
 // Set your server key (Note: Server key for sandbox and production mode are different)
 
 // Set true for production, set false for sandbox
-$is_production = false;
+$is_production = true;
 
 $api_url = $is_production ? 'https://app.midtrans.com/snap/v1/transactions' : 'https://app.sandbox.midtrans.com/snap/v1/transactions';
 
